@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@layer base {
+    :root {
+        --primary: #1e1e2f;
+        --primary-light: #272b3c;
+        --secondary: #3f51b5;
+        --accent: #9c27b0;
+        --accent-light: #b64dcb;
+        --accent-saturated: #7b1fa2;
+    }
+
+    body {
+        background-color: var(--primary);
+        color: white;
+    }
+}
+
+@plugin 'tailwind-scrollbar';
